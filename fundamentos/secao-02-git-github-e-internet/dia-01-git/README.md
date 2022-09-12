@@ -1,0 +1,1 @@
+Introduzido e instalado Git e explorado seu funcionamento.
