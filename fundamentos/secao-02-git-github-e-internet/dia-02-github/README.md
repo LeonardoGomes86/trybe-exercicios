@@ -1,0 +1,1 @@
+Sincronizado Git com GitHub e explorado o funcionamento entre as duas ferramentas.
