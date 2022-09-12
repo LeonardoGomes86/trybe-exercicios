@@ -1,1 +1,0 @@
-Ensinado como instalar o git e criar repositório local.
