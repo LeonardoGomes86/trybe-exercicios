@@ -1,0 +1,1 @@
+Informado conteudo do curso em geral e iniciado informações sobre o unix e o terminal.
