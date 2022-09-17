@@ -20,18 +20,40 @@ div:nth-of-type(1) h3:nth-child(1) {
     text-decoration: underline;
     font-style: italic;
 }
+/* 3. Estilize cada uma das tags <h3>. (soluções do gabarito sendo comentadas abaixo)
+/* Aqui estamos pegando a primeira div e o primeiro h3 */
+/* div:nth-of-type(1) > h3 {
+    color: purple;
+}   */
 div:nth-of-type(2) h3:nth-child(1) {
     text-decoration: line-through;
 }
+/* div:nth-of-type(2) > h3 {
+    color: green 
+} */
 div:nth-of-type(3) h3:nth-child(1) {
     text-decoration: overline;
-    font-size: larger;
+    font-size: 50px;
     font-style: italic;
 }
+/* div:nth-of-type(3) > h3 {
+    font-size: 20px;
+}   */
 div:nth-of-type(4) h3:nth-child(1) {
     font-family: monospace;
 }
+/* olha essa conhecidencia na fonte!
+div:nth-of-type(4) > h3 {
+    font-family: monospace;
+} */
 div:nth-of-type(5) h3:nth-child(1) {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
 }
+/* div:nth-of-type(5) > h3 {
+    font-style: italic
+} */
+/* 5. Deixe as tags ímpares <h3> com o texto em itálico (forma automática do gabarito, eu fiz manualmente).
+div:nth-child(odd) h3 {
+    font-style: italic
+  } */
