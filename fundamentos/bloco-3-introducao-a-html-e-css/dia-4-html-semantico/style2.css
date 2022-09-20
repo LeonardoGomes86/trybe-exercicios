@@ -1,0 +1,44 @@
+body {
+    border: 2px solid red;
+}
+header {
+    border: 2px solid green;
+    margin: 5px 5px;
+}
+nav {
+    border: 2px solid blue;
+    margin: 5px 5px;
+}
+nav ul li {
+    border: 2px solid purple;
+    margin: 5px 5px;
+    display: inline-block;
+}
+ul {
+    border: 2px gray solid;
+    margin: 5px 5px;
+}
+h2 {
+    border: 2px solid pink;
+    margin: 5px 5px;
+}
+.info-gerais {
+    border: 2px solid orange;
+    margin: 5px 5px;
+    display: inline-block;
+    width: 20%;
+}
+main {
+    border: 2px solid brown;
+    margin: 5px 5px;
+}
+table, td, tr, th {
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding: 5px 5px;
+}.info-cientificas {
+    border: 2px solid orange;
+    margin: 5px 5px;
+    display: inline-block;
+    width: 20%;
+}
