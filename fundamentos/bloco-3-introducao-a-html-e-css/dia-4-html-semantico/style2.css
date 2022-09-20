@@ -1,5 +1,8 @@
 body {
     border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
     border: 2px solid green;
@@ -10,17 +13,18 @@ nav {
     margin: 5px 5px;
 }
 nav ul li {
-    border: 2px solid purple;
-    margin: 5px 5px;
+    /* border: 2px solid purple; */
+    margin: 5px 100px 5px 100px;
     display: inline-block;
+    text-decoration:none;
 }
 ul {
-    border: 2px gray solid;
+    /* border: 2px gray solid; */
     margin: 5px 5px;
     text-align: center;
 }
 h1 {
-    text-align: center;
+    text-align: center;    
 }
 h2 {
     border: 2px solid pink;
@@ -40,7 +44,7 @@ main {
     margin-right: 400px;
 }
 table, td, tr, th {
-    border: 2px solid black;
+    border: 2px solid white;
     border-collapse: collapse;
     padding: 5px 5px;
     margin: 5px 5px;
@@ -64,16 +68,17 @@ aside {
     margin: 5px 5px;
     display: inline-block;
     position:absolute;
-    left: 1515px;
-    padding: 237px 25px;
-    right: 10px
+    left: 1500px;
+    padding: 306px 25px;
+    right: 15px;
+    text-align: center;
 }
 .references {
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 5px 5px;
 }
 footer {
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 5px 5px;
     text-align: center;
 }
