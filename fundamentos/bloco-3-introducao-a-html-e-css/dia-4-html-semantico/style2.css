@@ -50,6 +50,7 @@ table, td, tr, th {
     margin: 5px 5px;
     display: inline-block;
     width: 25%;
+    padding-top: auto;
 }
 .forma-de-caca {
     border: 2px solid orange;
@@ -63,7 +64,7 @@ aside {
     display: inline-block;
     position:absolute;
     left: 1515px;
-    padding: 246px 30px;
+    padding: 237px 25px;
     right: 10px
 }
 .references {
@@ -77,4 +78,9 @@ footer {
 }
 h3, p, img {
     margin: 5px 5px;
+}
+article {
+    border: 2px solid fuchsia;
+    margin: 5px 5px;
+    text-align: center;
 }
