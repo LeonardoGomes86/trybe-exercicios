@@ -31,3 +31,6 @@ ul li:nth-of-type(3) {
     color: blue;
     /* background-color: pink; */
 }
+li a:hover {
+    background-color: pink;
+}
