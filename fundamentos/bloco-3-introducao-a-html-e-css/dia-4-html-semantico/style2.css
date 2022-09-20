@@ -17,28 +17,51 @@ nav ul li {
 ul {
     border: 2px gray solid;
     margin: 5px 5px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
 }
 h2 {
     border: 2px solid pink;
     margin: 5px 5px;
+    text-align: center;
 }
 .info-gerais {
     border: 2px solid orange;
     margin: 5px 5px;
     display: inline-block;
-    width: 20%;
+    width: 25%;
 }
 main {
     border: 2px solid brown;
     margin: 5px 5px;
+    display: inline-block;
+    margin-right: 400px;
 }
 table, td, tr, th {
-    border: 2px solid red;
+    border: 2px solid black;
     border-collapse: collapse;
     padding: 5px 5px;
-}.info-cientificas {
+}
+.info-cientificas {
     border: 2px solid orange;
     margin: 5px 5px;
     display: inline-block;
-    width: 20%;
+    width: 25%;
+}
+.forma-de-caca {
+    border: 2px solid orange;
+    margin: 5px 5px;
+    display: inline-block;
+    width: 25%;
+}
+aside {
+    border: 2px solid yellow;
+    margin: 5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 1515px;
+    padding: 246px 30px;
+    right: 10px
 }
