@@ -43,6 +43,7 @@ table, td, tr, th {
     border: 2px solid black;
     border-collapse: collapse;
     padding: 5px 5px;
+    margin: 5px 5px;
 }
 .info-cientificas {
     border: 2px solid orange;
@@ -64,4 +65,16 @@ aside {
     left: 1515px;
     padding: 246px 30px;
     right: 10px
+}
+.references {
+    border: 2px solid black;
+    margin: 5px 5px;
+}
+footer {
+    border: 2px solid black;
+    margin: 5px 5px;
+    text-align: center;
+}
+h3, p, img {
+    margin: 5px 5px;
 }
