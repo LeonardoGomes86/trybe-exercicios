@@ -44,8 +44,9 @@ table, td, tr, th {
     border-collapse: collapse;
     padding: 5px 5px;
     margin: 5px 5px;
+    text-align: center;
 }
-.info-cientificas {
+.info-visao {
     border: 2px solid orange;
     margin: 5px 5px;
     display: inline-block;
