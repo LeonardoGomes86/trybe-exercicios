@@ -1,1 +1,1 @@
-const = 78;
+const notaPessoaEstudante = 78;
