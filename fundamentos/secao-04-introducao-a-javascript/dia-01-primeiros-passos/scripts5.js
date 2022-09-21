@@ -1,1 +1,1 @@
- 
+let weekDay = "quarta-feira";
