@@ -9,3 +9,13 @@ const a = 10;
 const b = 3;
 let subtraction = a - b;
 console.log(subtraction);
+// Programa 03/15 - programa para multiplicação
+const a = 9;
+const b = 5;
+let multi = a * b;
+console.log(multi);
+// Programa 04/15 - programa para divisão
+const a = 21;
+const b = 3;
+let divi = a / b;
+console.log(divi);
