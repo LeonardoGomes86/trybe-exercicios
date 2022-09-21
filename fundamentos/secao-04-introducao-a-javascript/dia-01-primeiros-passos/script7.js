@@ -19,3 +19,8 @@ const a = 21;
 const b = 3;
 let divi = a / b;
 console.log(divi);
+// Programa 04/15 - programa para módulo
+const a = 4;
+const b = 2;
+let mod = a % b;
+console.log(mod);
