@@ -54,3 +54,23 @@ if (a > 0) {
 } else {
   console.log("zero");
 }
+// Programa 09/15 - 🚀 Utilize if/else para fazer um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, o programa deve retornar uma mensagem de erro. Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Um ângulo será considerado inválido se não tiver um valor positivo.
+const ang1 = 60;
+const ang2 = 80;
+const ang3 = 40;
+let sumAng = ang1 + ang2 + ang3;
+if (sumAng == 180) {
+  if (ang1 >= 0 && ang2 >= 0 && ang3 >= 0) {
+    console.log(true);
+  } else {
+    console.log("ângulo inválido");
+  }
+} else if (sumAng > 180 || sumAng < 180) {
+  if (ang1 >= 0 && ang2 >= 0 && ang3 >= 0) {
+    console.log(false);
+  } else {
+    console.log("ângulo inválido");
+  }
+} else {
+  console.log("ângulo inválido");
+}
