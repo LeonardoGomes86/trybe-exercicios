@@ -1,4 +1,4 @@
-const notaPessoaEstudante = 78;
+const notaPessoaEstudante = 100;
 if (notaPessoaEstudante >= 80) {
   console.log('Parabéns, você foi aprovada(o)!')
 } else if (notaPessoaEstudante < 80 && notaPessoaEstudante >= 60) {
