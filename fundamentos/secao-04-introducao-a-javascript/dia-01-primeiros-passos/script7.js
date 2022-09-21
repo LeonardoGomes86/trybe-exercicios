@@ -45,3 +45,12 @@ if (a > b && a > c) {
 } else if (c > a && c > b) {
   console.log("O número " + c + " é o maior número");
 }
+// Programa 08/15 - Utilize if/else para fazer um programa que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
+const a = 120;
+if (a > 0) {
+  console.log("positive");
+} else if (a < 0) {
+  console.log("negative");
+} else {
+  console.log("zero");
+}
