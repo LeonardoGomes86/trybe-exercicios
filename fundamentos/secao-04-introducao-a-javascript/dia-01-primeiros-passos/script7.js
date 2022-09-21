@@ -59,13 +59,13 @@ const ang1 = 60;
 const ang2 = 80;
 const ang3 = 40;
 let sumAng = ang1 + ang2 + ang3;
-if (sumAng == 180) {
+if (sumAng === 180) {
   if (ang1 >= 0 && ang2 >= 0 && ang3 >= 0) {
     console.log(true);
   } else {
     console.log("ângulo inválido");
   }
-} else if (sumAng > 180 || sumAng < 180) {
+} else if (sumAng !== 180) {
   if (ang1 >= 0 && ang2 >= 0 && ang3 >= 0) {
     console.log(false);
   } else {
