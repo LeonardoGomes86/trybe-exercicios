@@ -19,12 +19,12 @@ const a = 21;
 const b = 3;
 let divi = a / b;
 console.log(divi);
-// Programa 04/15 - programa para módulo
+// Programa 05/15 - programa para módulo
 const a = 4;
 const b = 2;
 let mod = a % b;
 console.log(mod);
-// Programa 05/15 - Utilize if/else para fazer um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
+// Programa 06/15 - Utilize if/else para fazer um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
 const a = 10;
 const b = 15;
 if (a > b) {
@@ -33,4 +33,15 @@ if (a > b) {
   console.log("Número " + b + " é maior que o número " + a);
 } else {
   console.log("Números são iguais");
+}
+// Programa 07/15 - Utilize if/else para fazer um programa que retorne o maior de três números. Defina, no começo do programa, três constantes com os valores que serão comparados.
+const a = 20;
+const b = 18;
+const c = 35;
+if (a > b && a > c) {
+  console.log("O número " + a + " é o maior número");
+} else if (b > a && b > c) {
+  console.log("O número " + b + " é o maior número");
+} else if (c > a && c > b) {
+  console.log("O número " + c + " é o maior número");
 }
