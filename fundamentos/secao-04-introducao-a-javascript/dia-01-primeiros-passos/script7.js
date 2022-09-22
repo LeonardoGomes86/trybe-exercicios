@@ -141,7 +141,7 @@ if (notaPorcentagem >= 90) {
   }
 }
 // Programa 12/15 - Utilize if/else para fazer um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele deve retornar false.
-// Bonus: use somente um if. 
+// Bonus: use somente um if.  
 const a = 3;
 const b = 5;
 const c = 7;
