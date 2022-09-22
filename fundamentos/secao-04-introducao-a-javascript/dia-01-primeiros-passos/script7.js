@@ -74,3 +74,32 @@ if (sumAng === 180) {
 } else {
   console.log("ângulo inválido");
 }
+// Utilize switch/case para fazer um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+// Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+// Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+// Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+// Exemplo: bishop (bispo) -> diagonals (diagonais)
+let pecaXadrez = "CaVaLo";
+switch (pecaXadrez.toLowerCase()) {
+  case "rei":
+    console.log("Rei -> Pode mover-se em qualquer direção, porém apenas uma casa por vez.");
+    break;
+  case "dama":
+    console.log("Dama -> Pode mover-se em qualquer direção (vertical, horizontal e diagonal), porém quantas casas quiser, desde que estejam livres.");
+    break;
+  case "torre":
+    console.log("Torre -> Move-se em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.");
+    break;
+  case "bispo":
+    console.log("Bispo -> Move-se na diagonal, quantas casas quiser.");
+    break;
+  case "cavalo":
+    console.log("Cavalo -> Move-se em forma de L");
+    break;
+  case "peão":
+    console.log("Peão -> Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas.");
+    break;
+  default:
+    console.log('Erro, peça inválida');
+    break;
+}
