@@ -74,7 +74,7 @@ if (sumAng === 180) {
 } else {
   console.log("ângulo inválido");
 }
-// Utilize switch/case para fazer um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+// Programa 10/15 - Utilize switch/case para fazer um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
 // Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
 // Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
 // Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
@@ -102,4 +102,41 @@ switch (pecaXadrez.toLowerCase()) {
   default:
     console.log('Erro, peça inválida');
     break;
+}
+// Programa 11/15 - Utilize if/else para fazer um programa que converta uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+// Porcentagem >= 90 -> A
+// Porcentagem >= 80 -> B
+// Porcentagem >= 70 -> C
+// Porcentagem >= 60 -> D
+// Porcentagem >= 50 -> E
+// Porcentagem < 50 -> F
+// O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+const notaPorcentagem = -2
+let notaLetra = "";
+if (notaPorcentagem >= 90) {
+  if (notaPorcentagem > 100) {
+    console.log("Erro, programa sendo encerrado");
+  } else {
+    notaLetra = "A";
+    console.log('Aluno(a) tirou nota ' + notaLetra);
+  }
+} else if (notaPorcentagem >= 80) {
+  notaLetra = "B";
+  console.log('Aluno(a) tirou nota ' + notaLetra);
+} else if (notaPorcentagem >= 70) {
+  notaLetra = "C";
+  console.log('Aluno(a) tirou nota ' + notaLetra);
+} else if (notaPorcentagem >= 60) {
+  notaLetra = "D";
+  console.log('Aluno(a) tirou nota ' + notaLetra);
+} else if (notaPorcentagem >= 50) {
+  notaLetra = "E";
+  console.log('Aluno(a) tirou nota ' + notaLetra);
+} else if (notaPorcentagem < 50) {
+  if (notaPorcentagem < 0) {
+    console.log("Erro, programa encerrado");
+  } else {
+    notaLetra = "F";
+    console.log('Aluno(a) tirou nota ' + notaLetra);
+  }
 }
