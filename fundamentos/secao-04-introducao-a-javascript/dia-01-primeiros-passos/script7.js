@@ -150,7 +150,7 @@ if (a % 2 == 0 || b % 2 == 0 || c % 2 == 0) {
 } else {
   console.log(false);
 }
-// Programa 13/15 - tilize if/else para fazer um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele deve retornar false.
+// Programa 13/15 - Utilize if/else para fazer um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele deve retornar false.
 // Bonus: use somente um if.
 const a = 7;
 const b = 9;
@@ -159,4 +159,26 @@ if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
   console.log(true);
 } else {
   console.log(false);
+}
+// Programa 14/15 - Utilize if/else para escrever um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda, descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+// Atente que, sobre o custo do produto, incide um imposto de 20%.
+// Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+// O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+// valorCustoTotal = valorCusto + impostoSobreOCusto;
+// lucro = valorVenda - valorCustoTotal (lucro de um produto);
+
+const custoProduto = 30;
+const valorDeVenda = 50;
+let valorCustoTotal = custoProduto + (custoProduto*20/100)
+let lucro = valorDeVenda - valorCustoTotal
+let Produtos;
+let lucroTotal;
+
+if (Produtos = 1000) {
+  if (custoProduto <0 || valorDeVenda < 0) {
+    console.log("erro");
+  } else {
+    lucroTotal = lucro * Produtos
+    console.log(lucroTotal);
+  }
 }
