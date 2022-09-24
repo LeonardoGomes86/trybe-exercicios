@@ -30,16 +30,25 @@
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 let contadorLetra = 0;
 let recebePalavra = '';
+let menor = 0;
+let recebePrimeira = array[0];
 for (let index = 0; index < array.length; index += 1) {
-  if(contadorLetra > array[index].length) {
+  if( array[index].length > contadorLetra ) {
     contadorLetra = array[index].length;
     recebePalavra = array[index];
   }
 }
+for (let i = 0; i < array.length; i += 1) {
+  if (array[i].length < recebePrimeira.length) {
+    menor = array[i].length;
+    recebePrimeira = array[i];
+  }
+}
+console.log(recebePrimeira);
 console.log(contadorLetra);
 console.log(recebePalavra);
 
-//RETORNAR MAIOR NUMERO PRIMO ENTRE 2 e 50
+// RETORNAR MAIOR NUMERO PRIMO ENTRE 2 e 50
 
 let maior = 0;
 for (let i = 2; i <= 50; i += 1) {
@@ -55,4 +64,3 @@ for (let i = 2; i <= 50; i += 1) {
 }
 console.log(maior);
 
-// 
