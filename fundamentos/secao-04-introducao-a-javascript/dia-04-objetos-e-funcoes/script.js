@@ -1,234 +1,234 @@
-// // let car = {
-// //   type: 'Fiat',
-// //   model: '500',
-// //   color: 'white',
-// // };
-// // console.log(car.type);
+// let car = {
+//   type: 'Fiat',
+//   model: '500',
+//   color: 'white',
+// };
+// console.log(car.type);
 
 // // ----------------------------
 
-// // let diasDaSemana = {
-// //   1: 'domingo',
-// //   2: 'segunda',
-// //   3: 'terça',
-// //   4: 'quarta',
-// //   5: 'quinta',
-// //   6: 'sexta',
-// //   7: 'sábado',
-// // };
+// let diasDaSemana = {
+//   1: 'domingo',
+//   2: 'segunda',
+//   3: 'terça',
+//   4: 'quarta',
+//   5: 'quinta',
+//   6: 'sexta',
+//   7: 'sábado',
+// };
 
-// // // console.log(diasDaSemana.1); // SyntaxError: Unexpected number
-// // console.log(diasDaSemana['1']); // domingo
+// console.log(diasDaSemana.1); // SyntaxError: Unexpected number
+// console.log(diasDaSemana['1']); // domingo
 
-// // ------------------------
+// ------------------------
 
-// // let conta = {
-// //   agencia: '0000',
-// //   banco: {
-// //     cod: '012',
-// //     id: 4,
-// //     nome: 'TrybeBank',
-// //   },
-// // };
+// let conta = {
+//   agencia: '0000',
+//   banco: {
+//     cod: '012',
+//     id: 4,
+//     nome: 'TrybeBank',
+//   },
+// };
 
-// // let infoDoBanco = 'banco';
-// // console.log(conta[infoDoBanco]); // { cod: '012', id: 4, nome: 'TrybeBank' }
-// // console.log(conta[infoDoBanco]['nome']); // TrybeBank
+// let infoDoBanco = 'banco';
+// console.log(conta[infoDoBanco]); // { cod: '012', id: 4, nome: 'TrybeBank' }
+// console.log(conta[infoDoBanco]['nome']); // TrybeBank
 
-// // console.log(conta.agencia); // 0000
-// // console.log(conta['agencia']); // 0000
+// console.log(conta.agencia); // 0000
+// console.log(conta['agencia']); // 0000
 
-// // console.log(conta.banco.cod); // 012
-// // console.log(conta['banco']['id']); // 4
+// console.log(conta.banco.cod); // 012
+// console.log(conta['banco']['id']); // 4
 
-// // -------------------
+// -------------------
 
-// // let usuario = {
-// //   id: 99,
-// //   email: 'jakeperalta@gmail.com',
-// //   infoPessoal: {
-// //     nome: 'Jake',
-// //     sobrenome: 'Peralta',
-// //     endereco: {
-// //       rua: 'Smith Street',
-// //       bairro: 'Brooklyn',
-// //       cidade: 'Nova Iorque',
-// //       estado: 'Nova Iorque',
-// //     },
-// //   },
-// // };
+// let usuario = {
+//   id: 99,
+//   email: 'jakeperalta@gmail.com',
+//   infoPessoal: {
+//     nome: 'Jake',
+//     sobrenome: 'Peralta',
+//     endereco: {
+//       rua: 'Smith Street',
+//       bairro: 'Brooklyn',
+//       cidade: 'Nova Iorque',
+//       estado: 'Nova Iorque',
+//     },
+//   },
+// };
 
-// // console.log(usuario['id']); // 99
-// // console.log(usuario.email); // jakeperalta@gmail.com
+// console.log(usuario['id']); // 99
+// console.log(usuario.email); // jakeperalta@gmail.com
 
-// // console.log(usuario.infoPessoal.endereco.rua); // Smith Street
-// // console.log(usuario['infoPessoal']['endereco']['cidade']); // Nova Iorque
+// console.log(usuario.infoPessoal.endereco.rua); // Smith Street
+// console.log(usuario['infoPessoal']['endereco']['cidade']); // Nova Iorque
 
-// // --------------------------
+// --------------------------
 
-// // let moradores = [
-// //   {
-// //     nome: 'Luiza',
-// //     sobrenome: 'Guimarães',
-// //     andar: 10,
-// //     apartamento: 1005,
-// //   },
-// //   {
-// //     nome: 'William',
-// //     sobrenome: 'Albuquerque',
-// //     andar: 5,
-// //     apartamento: 502,
-// //   },
-// //   {
-// //     nome: 'Murilo',
-// //     sobrenome: 'Ferraz',
-// //     andar: 8,
-// //     apartamento: 804,
-// //   },
-// //   {
-// //     nome: 'Zoey',
-// //     sobrenome: 'Brooks',
-// //     andar: 1,
-// //     apartamento: 101,
-// //   },
-// // ];
+// let moradores = [
+//   {
+//     nome: 'Luiza',
+//     sobrenome: 'Guimarães',
+//     andar: 10,
+//     apartamento: 1005,
+//   },
+//   {
+//     nome: 'William',
+//     sobrenome: 'Albuquerque',
+//     andar: 5,
+//     apartamento: 502,
+//   },
+//   {
+//     nome: 'Murilo',
+//     sobrenome: 'Ferraz',
+//     andar: 8,
+//     apartamento: 804,
+//   },
+//   {
+//     nome: 'Zoey',
+//     sobrenome: 'Brooks',
+//     andar: 1,
+//     apartamento: 101,
+//   },
+// ];
 
-// // let primeiroMorador = moradores[0];
-// // console.log(primeiroMorador); // { nome: 'Luiza', sobrenome: 'Guimarães', andar: 10, apartamento: 1005 }
-// // console.log(primeiroMorador['andar']); // 10
+// let primeiroMorador = moradores[0];
+// console.log(primeiroMorador); // { nome: 'Luiza', sobrenome: 'Guimarães', andar: 10, apartamento: 1005 }
+// console.log(primeiroMorador['andar']); // 10
 
-// // let ultimoMorador = moradores[moradores.length - 1];
-// // console.log(ultimoMorador); // { nome: 'Zoey', sobrenome: 'Brooks', andar: 1, apartamento: 101 }
-// // console.log(ultimoMorador.nome); // Zoey
+// let ultimoMorador = moradores[moradores.length - 1];
+// console.log(ultimoMorador); // { nome: 'Zoey', sobrenome: 'Brooks', andar: 1, apartamento: 101 }
+// console.log(ultimoMorador.nome); // Zoey
 
-// // -----------------
+// -----------------
 
-// // exercicio de fixação
-// // Crie uma variável player e atribua um objeto contendo as variáveis listadas abaixo:
+// exercicio de fixação
+// Crie uma variável player e atribua um objeto contendo as variáveis listadas abaixo:
 
-// // let name = 'Marta';
-// // let lastName = 'Silva';
-// // let age = 34;
-// // let medals = { golden: 2, silver: 3 };
+// let name = 'Marta';
+// let lastName = 'Silva';
+// let age = 34;
+// let medals = { golden: 2, silver: 3 };
 
-// // let player = {
-// //   name: 'Marta',
-// //   lastName: 'Silva',
-// //   age: 34,
-// //   medals: {
-// //     golden: 2,
-// //     silver: 3
-// //   }
-// // }
+// let player = {
+//   name: 'Marta',
+//   lastName: 'Silva',
+//   age: 34,
+//   medals: {
+//     golden: 2,
+//     silver: 3
+//   }
+// }
 
-// // console.log('Jogadora ' + player.name + ' ' + player.lastName + ', com uma idade de ' + player.age + ' anos, já conquistou ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
+// console.log('Jogadora ' + player.name + ' ' + player.lastName + ', com uma idade de ' + player.age + ' anos, já conquistou ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
 
-// // ------------------------------------------------
+// ------------------------------------------------
 
-// // pedidos de pizzas
+// pedidos de pizzas
 
-// // let pizzas = {
-// //   sabor: 'Palmito',
-// //   preco: '39.90',
-// //   bordaDeCatupiry: true,
-// // }
+// let pizzas = {
+//   sabor: 'Palmito',
+//   preco: '39.90',
+//   bordaDeCatupiry: true,
+// }
 
-// // for (let key in pizzas) {
-//     // console.log(key); // podendo chamar pelas chaves
-//     // console.log(pizzas[key]); // podendo chamar pelo conteudo das chaves
-// // }
+// for (let key in pizzas) {
+    // console.log(key); // podendo chamar pelas chaves
+    // console.log(pizzas[key]); // podendo chamar pelo conteudo das chaves
+// }
 
-// // let pizzasDoces = ['Chocolate', 'Banana', 'Morango'];
+// let pizzasDoces = ['Chocolate', 'Banana', 'Morango'];
 
-// // for (let key in pizzasDoces) {
-// //   console.log(key, pizzasDoces[key]);
-// // }
+// for (let key in pizzasDoces) {
+//   console.log(key, pizzasDoces[key]);
+// }
 
-// // ------------
+// ------------
 
-// // let cars = ['Saab', 'Volvo', 'BMW'];
+// let cars = ['Saab', 'Volvo', 'BMW'];
 
-// // for (let index in cars) {
-// //   console.log(cars[index]);
-// // }
+// for (let index in cars) {
+//   console.log(cars[index]);
+// }
 
-// // let car = {
-// //   type: 'Fiat',
-// //   model: '500',
-// //   color: 'white',
-// // };
+// let car = {
+//   type: 'Fiat',
+//   model: '500',
+//   color: 'white',
+// };
 
-// // for (let index in car) {
-// //   console.log(index, car[index]);
-// // }
+// for (let index in car) {
+//   console.log(index, car[index]);
+// }
 
-// // para fixar
-// // Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
+// para fixar
+// Usando o objeto abaixo, utilize for/in e imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
 
-// // let names = {
-// //   person1: 'João',
-// //   person2: 'Maria',
-// //   person3: 'Jorge',
-// // };
+// let names = {
+//   person1: 'João',
+//   person2: 'Maria',
+//   person3: 'Jorge',
+// };
 
-// // for (let index in names) {
-// //   console.log('Olá ' + names[index]);
-// // }
+// for (let index in names) {
+//   console.log('Olá ' + names[index]);
+// }
 
-// // Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
+// Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
 
-// // let car = {
-// //   model: 'A3 Sedan',
-// //   manufacturer: 'Audi',
-// //   year: 2020
-// // };
+// let car = {
+//   model: 'A3 Sedan',
+//   manufacturer: 'Audi',
+//   year: 2020
+// };
 
-// // for (index in car) {
-// //   console.log(index, car[index]);
-// // }
+// for (index in car) {
+//   console.log(index, car[index]);
+// }
 
-// // para fixar (funções)
-// // Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados.
-// // adição
+// para fixar (funções)
+// Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados.
+// adição
 // function sum(a, b) {
 //   return a + b;
 // }
 // console.log(sum(1, 1));
-// // subtração
+// subtração
 // function sub(a, b) {
 //   return a - b;
 // }
 
 // console.log(sub(2,1));
-// // multiplicação
+// multiplicação
 // function multi(a, b) {
 //   return a * b;
 // }
 // console.log(multi(3, 2));
-// // divisão
+// divisão
 // function div(a, b) {
 //   return a / b;
 // }
 // console.log(div(4, 2));
-// // módulo
+// módulo
 // function mod(a, b) {
 //   return a % b;  
 // }
 // console.log(mod(8, 2));
-// // Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
+// Faça um programa que retorne o maior de dois números. Defina, no começo do programa, duas constantes com os valores que serão comparados.
 
-// // const numero1 = 35;
+/////////////////////////////////////////// // const numero1 = 35;
 // // const numero2 = 25;
 
-// // function maior(numero1, numero2) {
-// //   if (numero1 > numero2) {
-// //     return 'Número 1 é maior';
-// //   } else if (numero2 > numero1) {
-// //     return 'Número 2 é maior';
-// //   } else {
-// //     return 'Números iguais';
-// //   }
-// // }
+// function maior(numero1, numero2) {
+//   if (numero1 > numero2) {
+//     return 'Número 1 é maior';
+//   } else if (numero2 > numero1) {
+//     return 'Número 2 é maior';
+//   } else {
+//     return 'Números iguais';
+//   }
+// }
 
 // // console.log(maior(numero1, numero2));
 
@@ -314,17 +314,17 @@
 
 // Usando o objeto abaixo, faça os exercícios a seguir:
 
-let info = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-};
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+// };
 
 // console.log('Bem Vinda ' + info.personagem);
 
 // Insira no objeto uma nova propriedade com o nome de chave ‘recorrente’ e o valor ‘Sim’ e, em seguida, imprima o objeto no console. Use a sintaxe meuObjeto['chave'] = valor. Valor esperado no console:
 
-info['recorrente'] = 'Sim';
+// info['recorrente'] = 'Sim';
 
 // console.log(info);
 
@@ -359,18 +359,18 @@ info['recorrente'] = 'Sim';
 
 // Usando o objeto abaixo, faça os exercícios a seguir:
 
-let leitor = {
-  nome: 'Julia',
-  sobrenome: 'Pessoa',
-  idade: 21,
-  livrosFavoritos: [
-    {
-      titulo: 'O Pior Dia de Todos',
-      autor: 'Daniela Kopsch',
-      editora: 'Tordesilhas',
-    },
-  ],
-};
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//   ],
+// };
 
 // Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
 
@@ -379,11 +379,11 @@ let leitor = {
 // Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações:
 
 
-leitor.livrosFavoritos.push({
-  titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-  autor: 'JK Rowling',
-  editora: 'Rocco',
-})
+// leitor.livrosFavoritos.push({
+//   titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//   autor: 'JK Rowling',
+//   editora: 'Rocco',
+// })
 // console.log(leitor)
 
 //// Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: “Julia tem <quantidade> livros favoritos”, onde “<quantidade>” é um número gerado automaticamente pelo seu código.
@@ -392,33 +392,67 @@ leitor.livrosFavoritos.push({
 
 // Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.
 
-function verificaPalindrome (string){
-  let splitString = string.split('')
-  // console.log(splitString)
-  let reverseString = splitString.reverse()
-  let joinString = reverseString.join('')
-  if(joinString === string){
-      return true;
-  } else {
-      return false;
-  }
-}
+// function verificaPalindrome (string){
+//   let splitString = string.split('')
+//   // console.log(splitString)
+//   let reverseString = splitString.reverse()
+//   let joinString = reverseString.join('')
+//   if(joinString === string){
+//       return true;
+//   } else {
+//       return false;
+//   }
+// }
 
-console.log(verificaPalindrome('arara'));
-console.log(verificaPalindrome('desenvolvimento'));
+// console.log(verificaPalindrome('arara'));
+// console.log(verificaPalindrome('desenvolvimento'));
 
 // Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
 
-let teste = [1,2 ,6 ,4 ,850 ,6 ];
-function devolmeMaior(numeros){
-  let maior = 0;
-  for (const key in numeros) {
-    if( numeros[maior] < numeros[key] ){
-      maior = key;
-    }
-    }
-    return maior
-  }
-  console.log(devolmeMaior(teste));
+// let teste = [1,2 ,6 ,4 ,850 ,6 ];
+// function devolmeMaior(numeros){
+//   let maior = 0;
+//   for (const key in numeros) {
+//     if( numeros[maior] < numeros[key] ){
+//       maior = key;
+//     }
+//     }
+//     return maior
+//   }
+//   console.log(devolmeMaior(teste));
 
+// Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+// let teste = [2, 4, 6, 7, 10, 0, -3];
 
+// function devolveMenor(array) {
+//   let inicio = array[0];
+//   let menor = 0;
+//   for (const key in array) {
+//       if (array[key] <= inicio) {
+//       menor = key
+//     }
+//   }
+//   return "O indicie com menor valor foi o " + menor
+// }
+// console.log(devolveMenor(teste));
+
+// Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+
+// teste = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+// function maiorWord (array) {
+//   let contadorPalavra = 0;
+//   let maiorPalavra = '';
+//   for (const key in array) {
+//     if (array[key].length >= contadorPalavra) {
+//       contadorPalavra = array[key].length;
+//       maiorPalavra = array[key];
+//     }
+//   }
+//   return 'Maior palavra é ' + maiorPalavra;
+// }
+
+// console.log(maiorWord(teste));
+
+// Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+// teste: [2, 3, 2, 5, 8, 2, 3];
