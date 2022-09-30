@@ -1,0 +1,95 @@
+body {
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    border: 2px solid green;
+    margin: 5px 5px;
+}
+nav {
+    border: 2px solid blue;
+    margin: 5px 5px;
+}
+nav ul li {
+    /* border: 2px solid purple; */
+    margin: 5px 100px 5px 100px;
+    display: inline-block;
+    text-decoration:none;
+}
+ul {
+    /* border: 2px gray solid; */
+    margin: 5px 5px;
+    text-align: center;
+}
+h1 {
+    text-align: center;    
+}
+h2 {
+    border: 2px solid pink;
+    margin: 5px 5px;
+    text-align: center;
+}
+.info-gerais {
+    border: 2px solid orange;
+    margin: 5px 5px;
+    display: inline-block;
+    width: 25%;
+}
+main {
+    border: 2px solid brown;
+    margin: 5px 5px;
+    display: inline-block;
+    margin-right: 400px;
+}
+table, td, tr, th {
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    text-align: center;
+}
+.info-visao {
+    border: 2px solid orange;
+    margin: 5px 5px;
+    display: inline-block;
+    width: 25%;
+    padding-top: auto;
+}
+.forma-de-caca {
+    border: 2px solid orange;
+    margin: 5px 5px;
+    display: inline-block;
+    width: 25%;
+}
+aside {
+    border: 2px solid yellow;
+    margin: 5px 5px;
+    display: inline-block;
+    position:absolute;
+    left: 1500px;
+    padding: 306px 25px;
+    right: 15px;
+    text-align: center;
+}
+.references {
+    border: 2px solid white;
+    margin: 5px 5px;
+}
+footer {
+    border: 2px solid white;
+    margin: 5px 5px;
+    text-align: center;
+}
+h3, p, img {
+    margin: 5px 5px;
+}
+article {
+    border: 2px solid fuchsia;
+    margin: 5px 5px;
+    text-align: center;
+}
+a {
+    color: white;
+}
